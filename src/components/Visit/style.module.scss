@@ -1,0 +1,91 @@
+.visit{
+    h5{
+        font-weight: 500;
+        font-size: 42px;
+        margin: 0 auto 111px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .visitWrapperBlockCountry{
+        display:flex;
+        margin: 0 auto;
+        max-width: 90%;
+        justify-content: space-between;
+        .visitBlockCountry{
+            .visitTown{
+                font-size: 38px;
+                font-weight: 500;
+                color: #69684a;
+                margin-bottom: 45px;
+            }
+            .visitAddress{
+                font-size: 25px;
+                font-weight: 500;
+                max-width: 240px;
+                text-transform: none;
+                line-height: 1.5;
+            }
+        }
+    }  
+}
+ @media (max-width: 990px){
+    .visit{
+        h5{
+            margin: 0 auto 60px;
+            font-size: 38px;
+        }
+        .visitWrapperBlockCountry{
+            display:block;
+            text-align: center;
+            .visitBlockCountry{
+                margin-bottom: 50px;
+                .visitTown{
+                    margin-bottom: 20px;
+                    font-size: 34px;
+                }
+                .visitAddress{
+                    max-width: 240px;
+                    margin:0 auto;
+                    font-size: 20px;
+                }
+            }
+        }  
+    }
+ }
+ @media (max-width: 770px){
+    .visit{
+        h5{
+            margin: 0 auto 50px;
+            font-size: 30px;
+        }
+        .visitWrapperBlockCountry{
+            .visitBlockCountry{
+                margin-bottom: 50px;
+                .visitTown{
+                    margin-bottom: 20px;
+                    font-size: 26px;
+                }
+            }
+        }  
+    }
+ }
+ @media (max-width: 550px){
+    .visit{
+        h5{
+            margin: 0 auto 30px;
+            font-size: 18px;
+        }
+        .visitWrapperBlockCountry{
+            .visitBlockCountry{
+                margin-bottom: 30px;
+                .visitTown{
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                }
+                .visitAddress{
+                    font-size: 14px;
+                }
+            }
+        }  
+    }
+ }

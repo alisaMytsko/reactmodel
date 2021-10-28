@@ -1,0 +1,101 @@
+.aboutUs{
+    max-width: 90%;
+    margin:0 auto;
+    h2{
+        font-size: 38px;
+        font-weight: 500;
+        margin: 0 auto 74px;
+        width: 50%;
+        text-align: center;
+    }
+    .aboutUsContainer{
+        display:flex;
+        justify-content: space-between;
+        background: #69694b;
+        align-items: center;
+        .aboutUsSectionOne{
+            flex-basis: 40%;
+            .aboutUsSectionOneGreen{
+                max-width: 80%;
+                margin:0 auto;
+                p{
+                    font-size: 21px;
+                    color: #fff;
+                    text-transform: none;
+                    line-height: 1.5;
+                }
+                button{
+                    color: #fff;
+                    border-bottom:1px solid #fff;
+                    margin-top:50px;
+
+                }
+            }
+        }
+        .aboutUsSectionTwo{
+            img{
+                display:block;
+                max-width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media( max-width: 1230px){
+    .aboutUs{
+        .aboutUsContainer{
+            display:block;
+            text-align: center;
+            padding: 60px 0;
+            .aboutUsSectionOne{
+                .aboutUsSectionOneGreen{
+                    button{
+                        margin-top:30px;
+                    }
+                }
+            }
+            .aboutUsSectionTwo{
+                margin-top: 60px;
+                img{
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+@media( max-width: 770px){
+    .aboutUs{
+        h2{
+            font-size: 1.875rem;
+            margin: 0 auto 50px;
+        }
+        .aboutUsContainer{
+            padding: 60px 0 0 0;
+        }
+    }
+}
+@media( max-width: 550px){
+    .aboutUs{
+        h2{
+            font-size: 1.125rem;
+        }
+        .aboutUsContainer{
+            padding: 30px 0 0 0;
+            .aboutUsSectionOne{
+                .aboutUsSectionOneGreen{
+                    p{
+                        font-size: 1rem;
+                    }
+                    button{
+                        font-size: 16px;
+                        margin-top:20px;
+                    }
+                }
+            }
+            .aboutUsSectionTwo{
+                margin-top: 30px;
+            }
+        }
+    }
+}

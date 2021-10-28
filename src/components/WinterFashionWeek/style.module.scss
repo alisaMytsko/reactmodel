@@ -1,0 +1,77 @@
+.winterFashion{
+    max-width: 1440px;
+    margin:165px auto 0;
+    h3{
+        font-size: 42px;
+        font-weight: 500;
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto 73px;
+    }
+    .wfContainer{
+        position:relative;
+        img{
+            display:block;
+            max-width: 100%;
+            height: auto;
+        }
+        .wfBlockWrapper{
+            position:absolute;
+            top: 34%;
+            left: 13%;
+            p{
+                color:#fff;
+                font-size: 38px;
+                font-weight: 500;
+            }
+            button{
+                color: #fff;
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+}
+@media (max-width: 990px){
+    .winterFashion{
+        h3{
+            font-size: 2.375rem;
+        }
+        .wfContainer{
+            .wfBlockWrapper{
+                p{
+                    font-size: 1.875rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 770px){
+    .winterFashion{
+        h3{
+            font-size: 1.875rem;
+        }
+        .wfContainer{
+            .wfBlockWrapper{
+                p{
+                    font-size: 1.375rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 550px){
+    .winterFashion{
+        margin:70px auto 0;
+        h3{
+            font-size: 1.125rem;
+            margin: 0 auto 30px;
+        }
+        .wfContainer{
+            .wfBlockWrapper{
+                p{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}

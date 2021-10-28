@@ -1,0 +1,113 @@
+.contact{
+    max-width: 90%;
+    margin:240px auto 96px;
+    display:flex;
+    justify-content: space-between;
+    .blockFlex{
+        flex-basis: 50%;
+        h5{
+            font-size: 40px;
+            font-weight: 500;
+        }
+        p{
+            font-size: 29px;
+            text-transform: none;
+            max-width: 90%;
+            margin-top: 40px;
+        }
+    }
+    .blockFlexTwo{
+        margin-top: 94px;
+        text-align: right;
+        flex-basis: 50%;
+        input{
+            width: 60%;
+            border: 2px solid #000;
+            font-size: 21px;
+            font-weight: 500;
+            margin-bottom: 17px;
+            padding: 13px 23px;
+            text-transform: none;
+        }
+        .textAreaContact{
+            width: 60%;
+            border: 2px solid #000;
+            text-transform: none;
+            font-size: 21px;
+            font-weight: 500;
+            padding: 13px 23px;
+            margin-bottom: 30px;
+        }
+    }
+}
+@media (max-width:990px){
+    .contact{
+        margin:140px auto 96px;
+        .blockFlex{
+            h5{
+                font-size: 38px;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        .blockFlexTwo{
+            margin-top: 64px;
+            input{
+                width: 80%;
+                font-size: 18px;
+            }
+            .textAreaContact{
+                width: 80%;
+                font-size: 18px;
+            }
+        }
+    }
+}
+@media (max-width:770px){
+    .contact{
+        text-align: center;
+        display:block;
+        .blockFlex{
+            h5{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+                max-width: 90%;
+                margin:40px auto 0;
+            }
+        }
+        .blockFlexTwo{
+            text-align: center;
+        }
+    }
+}
+@media (max-width:550px){
+    .contact{
+        margin:70px auto;
+        .blockFlex{
+            h5{
+                font-size: 18px;
+            }
+            p{
+                font-size: 14px;
+                margin-top: 20px;
+            }
+        }
+        .blockFlexTwo{
+            margin-top: 40px;
+            input{
+                font-size: 14px;
+                padding: 10px 18px;
+            }
+            .textAreaContact{
+                font-size: 14px;
+                padding: 10px 18px;
+             }
+            button{
+                font-size: 16px;
+            }
+        }
+    }
+}
